@@ -37,6 +37,9 @@
                 <groupId>org.pitest</groupId>
                 <artifactId>pitest-maven</artifactId>
                 <version>1.6.4</version>
+                <configuration>
+                    <mutationThreshold>100</mutationThreshold>
+                </configuration>
                 <dependencies>
                     <dependency>
                         <groupId>org.pitest</groupId>

@@ -32,7 +32,6 @@ public class TestedClass {
         System.out.print("totalStringLength: " + totalStringLength);
 
         return calculateResult(effectiveStrings);
-
     }
 
     private String calculateResult(List<String> strings) {
