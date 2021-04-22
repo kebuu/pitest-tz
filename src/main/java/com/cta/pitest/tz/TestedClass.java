@@ -31,6 +31,10 @@ public class TestedClass {
 
         System.out.print("totalStringLength: " + totalStringLength);
 
+        if (false) {
+            System.out.print("Never reached");
+        }
+
         return calculateResult(effectiveStrings);
     }
 
